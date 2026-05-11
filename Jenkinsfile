@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/RashiSaraswat/gradle_test1.git'
+                git branch: 'master', url: 'https://github.com/RashiSaraswat/gradletest.git'
             }
         }
         stage('Build') {
